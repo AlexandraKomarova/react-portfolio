@@ -11,17 +11,17 @@ export const Nav = () => {
             <div className="col-12 d-flex justify-content-center menu">
                 <div className="menu-item">
                     <p>
-                        <a href="#">About</a>
+                    <Link to="/home">Home</Link>
                     </p>
                 </div>
                 <div className="menu-item">
                     <p>
-                        <a href="portfolio.html">Portfolio</a>
+                    <Link to="/portfolio">Portfolio</Link>
                     </p>
                 </div>
                 <div className="menu-item">
                     <p>
-                        <a href="contact.html">Contact</a>
+                    <Link to="/contact">Contact</Link>
                     </p>  
                 </div>    
             </div>

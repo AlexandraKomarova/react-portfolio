@@ -11,17 +11,17 @@ export default function App() {
     <Router>
       <div>
       <Nav />
-      {/* <Switch>
-        <Route exact path={["/", "/home"]}> */}
+      <Switch>
+        <Route exact path={["/", "/home"]}> 
           <Home />
-        {/* </Route>
+        </Route>
         <Route exact path={["/", "/portfolio"]}>
           <Portfolio />
         </Route>
         <Route exact path={["/", "/contact"]}>
           <Contact />
         </Route>
-      </Switch> */}
+      </Switch>
     </div>
     </Router>
   );
